@@ -4,8 +4,6 @@ main.o:main.c
 	gcc -c main.c
 big.o:big.c
 	gcc -c big.c
-fact.0:fact.c
-	gcc -c fact.c
 rev.o:rev.c
 	gcc -c rev.c
 big3.o:big3.c
