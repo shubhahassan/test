@@ -1,5 +1,5 @@
-Qprofil.exe:main.o big.o fact.o rev.o big3.o pallin.o sum.o sort.o
-	gcc -o Qprofil.exe main.o big.o fact.o rev.o big3.o pallin.o sum.o sort.o
+Qprofil.exe:main.o big.o rev.o big3.o pallin.o sum.o sort.o
+	gcc -o Qprofil.exe main.o big.o rev.o big3.o pallin.o sum.o sort.o
 main.o:main.c
 	gcc -c main.c
 big.o:big.c
