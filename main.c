@@ -2,7 +2,6 @@
 main()
 {
 	big();
-	fact();
 	rev();
 	big3();
 	pallin();
